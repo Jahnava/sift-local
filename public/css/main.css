@@ -1,4 +1,17 @@
-body {
-  background-image: url('/images/starry_night.jpg');
-  background-size: cover;
+#backgroundImage {
+   background-image:url(/images/starry_night.jpg);
+  height: 485px;
+  width:468px;
+  display: block;
+  margin: auto;
+/*display:none;*/
+}
+
+.floating-box {
+    float: right;
+    width: 150px;
+    height: 75px;
+    border: 3px solid #73AD21;
+    display:inline-block;
+    background-size: cover;
 }
