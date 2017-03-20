@@ -7,36 +7,22 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-HEAD
-    <h3>Paint By Number</h3>
-      <div class="text_container">
-        <!-- I want to keep the outer div (kitty) hidden while
-        leaving the inner divs accessable. That way we may
-        be able to display one div section at a time.   -->
-        <div id="backgroundImage">
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-          <div class="floating-box"></div>
-        </div>
-      </div>
+  <div id="directions">
+Directions:
+
+showAll()      will hide all of the white blocks to reveal the background image
+clearAll()       will show all of the white blocks to hide the background image
+
+hide("objectID") will show any individual white block finding the # id of the block
+show("objectID") will hide any indiviudal white block to reveal the background image
+
+For Example:
+
+show(145)    will display the part of the image behind block 145
+hide(145)    will hide the image behind the block 145
+</div>
 
 
- 9f6f818f3d35322a4a223a073b560344ac78c707
 
     <script src="js/app.js"></script>
   </body>
