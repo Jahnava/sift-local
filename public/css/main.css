@@ -1,3 +1,4 @@
+ HEAD
 #backgroundImage {
    background-image:url(/images/starry_night.jpg);
   height: 485px;
@@ -14,4 +15,74 @@
     border: 3px solid #73AD21;
     display:inline-block;
     background-size: cover;
+/*  css reset;
+    http://meyerweb.com/eric/tools/css/reset/
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+  background-image: url('/images/starry_night.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bluestrip{
+  height: 5vh;
+  border: 1px solid white;
+}
+
+.col-xs-1{
+  float: left;
+  height: 5vh;
+  width: 4vw;
+  border: 1px solid red;
+  padding: 0px;
+ 9f6f818f3d35322a4a223a073b560344ac78c707
 }
